@@ -3,7 +3,7 @@ vcl 4.1;
 import std;
 
 backend default {
-    .host = "{$SERVICE_WP}";
+    .host = "{{SERVICE_WP}}";
     .port = "80";
 }
 
